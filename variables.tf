@@ -3,17 +3,17 @@ variable "region" {
 }
 
 variable "availability_zones" {
-    default = [
-        "us-east-1a",
-    ]
+  default = [
+    "us-east-1a",
+  ]
 }
 
 variable "public_subnet_cidr" {
-    default = "10.0.101.0/26"
+  default = "10.0.101.0/26"
 }
 
 variable "vpc_cidr" {
-    default = "10.0.101.0/25"
+  default = "10.0.101.0/25"
 }
 
 variable "app_name" {
